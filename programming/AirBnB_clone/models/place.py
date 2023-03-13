@@ -1,0 +1,17 @@
+import sys
+sys.path.append('C:/Users/kshed/OneDrive/Desktop/programming/AirBnB_clone/models')
+from base_model import BaseModel
+
+class Place(BaseModel):
+    
+    city_id = "" #City.id
+    user_id = "" #User.id
+    name = ""
+    description = ""
+    number_rooms = 0
+    number_bathroom = 0
+    max_guest = 0
+    price_by_night = 0
+    latitude = 0.0
+    longitude = 0.0
+    amenity_ids = "" #Amenity.id
